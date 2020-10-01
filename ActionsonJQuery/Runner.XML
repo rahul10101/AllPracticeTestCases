@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" thread-count="1">
+  <test name="UITest">
+    <classes>
+        <class name="com.JqueryAction.actionsonjqueryui.ActionsJqueryTest">
+            <methods>
+            <include name="actionOnDrop"></include>
+            <include name="performMouseActions"></include>
+            <exclude name="shiftKeyActiononSearchBox"></exclude>
+            </methods>
+        </class>           
+    </classes>
+  </test>
+</suite>
